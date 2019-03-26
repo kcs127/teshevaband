@@ -1,0 +1,71 @@
+#bg { width:100%; height:150%; position:fixed; left:0; top:-50px; }
+
+#gradient_1, #gradient_2, #solid_background {
+  width:100%;
+  height:100%;
+}
+
+#gradient_1, .cssgradients #gradient_2 {
+  -webkit-transition:opacity 6s linear;
+  -moz-transition:opacity 6s linear;
+  -ms-transition:opacity 6s linear;
+  -o-transition:opacity 6s linear;
+  transition:opacity 6s linear;
+}
+
+ #gradient_1 {
+  background-image: linear-gradient(left top, rgba(200,0,45,1) 10%, rgba(255,0,45,0) 90%);
+  background-image: -o-linear-gradient(left top, rgba(200,0,45,1) 10%, rgba(255,0,45,0) 90%);
+  background-image: -ms-linear-gradient(left top, rgba(200,0,45,1) 10%, rgba(255,0,45,0) 90%);
+  background-image: -moz-linear-gradient(left top, rgba(200,0,45,1) 10%, rgba(255,0,45,0) 90%);
+  background-image: -webkit-linear-gradient(left top, rgba(200,0,45,1) 10%, rgba(255,0,45,0) 90%);
+}
+
+#gradient_1 {
+  position:absolute; 
+  z-index:902;
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorStr=#c8002dff, endColorStr=#ff00ff00, GradientType=1);
+  -ms-filter: "progid:DXImageTransform.Microsoft.gradient(startColorstr=#c8002dff, endColorstr=#ff00ff00, GradientType=1)";
+}
+
+#gradient_1 {
+  background-image: linear-gradient(left top, rgba(45,0,200,1) 10%, rgba(45,0,200,0) 90%);
+  background-image: -o-linear-gradient(left top, rgba(45,0,200,1) 10%, rgba(45,0,200,0) 90%);
+  background-image: -ms-linear-gradient(left top, rgba(45,0,200,1) 10%, rgba(45,0,200,0) 90%);
+  background-image: -moz-linear-gradient(left top, rgba(45,0,200,1) 10%, rgba(45,0,200,0) 90%);
+  background-image: -webkit-linear-gradient(left top, rgba(45,0,200,1) 10%, rgba(45,0,200,0) 90%);
+}
+
+#gradient_2 {
+  position:absolute; 
+  z-index:901;
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorStr=#c8002dff, endColorStr=#ff00ff00, GradientType=1);
+  -ms-filter: "progid:DXImageTransform.Microsoft.gradient(startColorstr=#c8002dff, endColorstr=#ff00ff00, GradientType=1)";
+}
+
+#solid_background {
+  position:fixed; 
+  z-index:900;
+  background-color:rgb(255,145,20);
+  -webkit-transition:background-color 5s linear;
+  -moz-transition:background-color 5s linear;
+  -ms-transition:background-color 5s linear;
+  -o-transition:background-color 5s linear;
+  transition:background-color 5s linear;
+  top:0;
+  left:0;
+  right:0;
+  opacity:0.2;
+}
+
+
+.p1::after { content:""; background:url("paisley.png"); opacity:0.5; top:0; left:0; bottom:0; right:0; position:absolute; z-index:-1;}
+.p2::after { content:""; background:url("new_year_background.png"); opacity:0.5; top:0; left:0; bottom:0; right:0; position:absolute; z-index:-1;}
+.p3::after { content:""; background:url("shattered.png"); opacity:0.8; top:0; left:0; bottom:0; right:0; position:absolute; z-index:-1;}
+.p4::after { content:""; background:url("swirl.png"); opacity:0.7; top:0; left:0; bottom:0; right:0; position:absolute; z-index:-1;}
+.p5::after { content:""; background:url("symphony.png"); opacity:0.5; top:0; left:0; bottom:0; right:0; position:absolute; z-index:-1;}
+
+
+.site-wrapper { position:absolute; z-index:1000; }
+
+.cardStock {}

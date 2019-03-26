@@ -1,0 +1,10 @@
+/* CSS Document */
+
+@media screen and (max-width: 767px) {
+	h1.rey { font-size:64px; }
+	#srcLogo { margin-top:35%; }
+}
+
+@media screen and (max-width: 550px) {
+	#srcLogo { margin-top:45%; }
+}
